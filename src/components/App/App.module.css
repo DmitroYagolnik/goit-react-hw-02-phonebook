@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Phonebook {
+  margin: 25px;
+}
+
+.PhonebookTitle {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 48px;
+  margin: 15px 0;
+}
+
+.PhonebookContactsTitle {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
+  margin: 15px 0;
+}

@@ -1,0 +1,42 @@
+.ContactFormContainer {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.labelContainer {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.inputForm {
+  width: 175px;
+  padding: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: white;
+}
+
+.inputForm:focus {
+  border-color: lightblue;
+}
+
+.submitButton {
+  cursor: pointer;
+  width: 100px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 2px;
+  margin-top: 15px;
+}
+
+.submitButton:active {
+  background-color: blue;
+  border-color: inherit;
+}
